@@ -64,8 +64,8 @@ student3.add_course("Data Structures")
 
 # print student 2 object properties
 print('----------- student 3----------------')
-print('student 3 name is: ', student2.name)
-print('student 3 age: ', student2.age)
-print('student 3 classroom: ', student2.classroom)
-print('Student 3 has attended : ', student2.get_attendance_count(),  'days')
-print('student 3 enrolled ', student2.courses_enrolled, 'courses')
+print('student 3 name is: ', student3.name)
+print('student 3 age: ', student3.age)
+print('student 3 classroom: ', student3.classroom)
+print('Student 3 has attended : ', student3.get_attendance_count(),  'days')
+print('student 3 enrolled ', student3.courses_enrolled, 'courses')
