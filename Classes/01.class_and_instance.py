@@ -1,5 +1,5 @@
 class Student:
-    # class constructor
+    # constructor of the class
     def __init__(self, name, age, classroom):
         self.name = name
         self.age = age
@@ -8,6 +8,8 @@ class Student:
         self.attendance_count = 0
         self.courses_enrolled = []
 
+    # methods of the class
+    
     def set_attendance(self):
         self.attendance_count += 1
 
