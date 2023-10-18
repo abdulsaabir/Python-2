@@ -1,0 +1,7 @@
+1 - You are task is implementing a 'deposit' function in the BankAccount class. 
+2 - The deposit function takes a single parameter called 'amount' which represents the amount of money to be deposited into the account
+
+Inside The function you will do the following :
+1- validate that the amount is a positive number. ( greater than zero )
+    1.1- if the amount is valid positive Number add the amount to the Balance
+    1.2 else print Invalid input. Please enter a valid numeric amount.
