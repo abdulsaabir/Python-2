@@ -63,3 +63,21 @@ print(list8)  # Expected Output:['banana', 'cherry']
 list9 = [10, 20, 30, 40, 50]
 list9.pop(3)  # we removing the number at index (3) which is number 40
 print(list9)  # Expected Output:[10, 20, 30, 50]
+
+
+
+"""
+The difference between pop, pop with an index, and remove:
+
+- pop() without an index removes and returns the last element from the list.
+Example: [1, 2, 3, 4, 5] -> pop() -> removed last Element: 5, List after pop(): [1, 2, 3, 4]
+
+
+- pop(index) removes and returns the element at the specified index.
+Example: [1, 2, 3, 4, 5] -> pop(1) -> removed Element at index 1: 2, List after pop(): [1, 3, 4, 5]
+
+- remove(value) removes the first occurrence of the specified value.
+Example: [1, 2, 3, 4, 3, 5] -> remove(3) -> List after removing the first 3, List After remove [1, 2, 4, 3, 5]
+
+
+"""
