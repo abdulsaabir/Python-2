@@ -17,7 +17,7 @@ else:
 
 # Output: Grape is not in the list.
 """
-the difference:
+the difference between in vs not in:
 
 - 'in' checks if an element is present in the list and returns True if it is and returns false if the element is not present in the list
 

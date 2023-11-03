@@ -39,7 +39,6 @@ sorted() is a built-in function that returns a new sorted list
 sort() is a method that sorts the original list in-place and returns None.
     the method of .sort it only can be used in list 
 
-
 Example: [5, 2, 8, 1, 6] -> sorted() -> [1, 2, 5, 6, 8] (original list unchanged)
 Example: [5, 2, 8, 1, 6] -> .sort() -> original list becomes [1, 2, 5, 6, 8]
 

@@ -59,6 +59,7 @@ list8 = ["apple", "banana", "cherry"]
 list8.pop(0)  # we removing the fruit at index (0) which is apple
 print(list8)  # Expected Output:['banana', 'cherry']
 
+
 # Example 3
 list9 = [10, 20, 30, 40, 50]
 list9.pop(3)  # we removing the number at index (3) which is number 40

@@ -26,7 +26,7 @@ for index, fruit in enumerate(fruits):
 
 
 """
-The difference:
+The difference :
 
 - In Example 1, a for loop is used without enumerate. It iterates through the elements of the list directly.
 
