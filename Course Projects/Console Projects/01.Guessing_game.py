@@ -1,20 +1,36 @@
-import random
+import random  # Import the 'random' module to generate random numbers
+
 
 # Generate a random number within the specified range
-random_number = random.randint(0, 100)
+random_number = random.randint(0, 100)  # Generate a random number between 0 and 100
+guesses = 0  # Initialize the number of guesses to 0
 
-# Complete the Project
-# -----------------------
+# Start the guessing loop
+while True: 
+    user_guess = input("Make a guess: ")  # Prompt the user to make a guess
 
-# Your task is to extend and complete the number guessing game. Follow these steps to finish the project:
+    # Check if the user's input is a valid integer
+    if user_guess.isdigit():  # Check if the input consists of digits only
 
-# 1. START a loop that continues until the user guesses the correct number.
-# 2. ASK the user to enter their guess.
-# 3. CHECK if the user's input is a valid number.
-# 4. COMPARE the user's guess to the randomly generated number we generated in line 4.
-# 5. KEEP TRACK of the number of guesses the user makes if the user input was a number.
-# 6. PRINT the GUESS result based on whether the user guessed correctly in one attempt or took multiple attempts.
+        guesses += 1  # Increment the number of guesses by 1
+        user_guess = int(user_guess)  # Convert the input to an integer
 
+        if user_guess == random_number:  # Check if the user's guess is correct
+            print("You got it!")  # Congratulate the user for guessing correctly
+            break  # Exit the loop
 
+        elif user_guess > random_number:  # Check if the user's guess is too high
+            print("You guessed too high!")  # Inform the user that their guess is too high
+        
+        else:
+            print("You guessed too low!")  # Inform the user that their guess is too low
+    else:
+        print('Please type a valid number.')  # Ask the user for a valid input
 
-# Enjoy the coding journey!
+# Display the results
+if guesses == 1:  # Check if the user guessed correctly on the first attempt
+    print("You got it in the first attempt.")  # Display a message for a correct first guess
+elif guesses == 2:  # Check if the user guessed correctly on the second attempt
+    print("You got it in the second attempt.")  # Display a message for a correct second guess
+else:
+    print("You got it in", guesses, "guesses.")  # Display the number of guesses needed for the correct answer
