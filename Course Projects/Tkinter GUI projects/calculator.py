@@ -103,7 +103,7 @@ calculator.geometry(f'{APP_SIZE[0]}x{APP_SIZE[1]}')
 calculator.resizable(False, False)
 calculator.title('')
 
-# calculator.iconbitmap('emtpy.ico')
+calculator.iconbitmap('emtpy.ico')
 
 # grid layout
 calculator.rowconfigure(list(range(MAIN_ROWS)), weight=1, uniform='a')        
