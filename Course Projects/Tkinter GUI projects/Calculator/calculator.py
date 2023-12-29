@@ -45,6 +45,7 @@ def press_math(value):
             formula_string.set(' '.join(full_operation))
 
 def press_opera(value):
+    press_math('=')
     global display_nums
         
     # clear the output
@@ -153,8 +154,8 @@ MATH_POSITIONS = [
 	{'symb': '÷', 'character': '/', 'col': 3, 'row': 2, 'span': 1},
 	{'symb': '*', 'character': '*', 'col': 3, 'row': 3, 'span': 1},
 	{'symb': '-', 'character': '-', 'col': 3, 'row': 4, 'span': 1},
-	{'symb': '+', 'character': '+', 'col': 3, 'row': 6, 'span': 1},
-	{'symb': '=', 'character': '=', 'col': 3, 'row': 5, 'span': 1},
+	{'symb': '+', 'character': '+', 'col': 3, 'row': 5, 'span': 1},
+	{'symb': '=', 'character': '=', 'col': 3, 'row': 6, 'span': 1},
 ]
 
 for symbol in MATH_POSITIONS:
