@@ -75,7 +75,7 @@ calculate_the_result.grid(column=0, row=2, columnspan=2, sticky="EW")
 
 switch_the_metric = ctk.CTkButton(
     frame,
-    text="Switch the Converseion",
+    text="Switch the Conversion",
     command=switch_the_frame
 )
 switch_the_metric.grid(column=0, row=3, columnspan=2, sticky="EW")
