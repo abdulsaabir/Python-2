@@ -177,5 +177,3 @@ for operator in OPERATORS:
 
 
 calculator.mainloop()
-
-
